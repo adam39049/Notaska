@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">مدير المهام</string>
+    <string name="add_task">إضافة مهمة جديدة</string>
+    <string name="edit_task">تعديل المهمة</string>
+    <string name="task_title">عنوان المهمة</string>
+    <string name="task_description">وصف المهمة</string>
+    <string name="due_date">تاريخ الاستحقاق</string>
+    <string name="priority">مستوى الأولوية</string>
+    <string name="priority_low">عادي</string>
+    <string name="priority_medium">مهم</string>
+    <string name="priority_high">عاجل</string>
+    <string name="save">حفظ</string>
+    <string name="cancel">إلغاء</string>
+    <string name="delete">حذف</string>
+    <string name="edit">تعديل</string>
+    <string name="search_hint">ابحث في المهام...</string>
+</resources>

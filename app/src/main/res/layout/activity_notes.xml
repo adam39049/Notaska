@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:padding="16dp"
+    tools:context=".NotesActivity">
+
+    <!-- شريط العلوي -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="16dp">
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:contentDescription="رجوع"
+            android:focusable="true"
+            android:padding="12dp"
+            android:src="@android:drawable/ic_menu_revert"
+            android:tint="@color/purple_500" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="الملاحظات"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <ImageButton
+            android:id="@+id/btn_add_note"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:contentDescription="إضافة ملاحظة"
+            android:focusable="true"
+            android:padding="12dp"
+            android:src="@android:drawable/ic_input_add"
+            android:tint="@color/purple_500" />
+    </LinearLayout>
+
+    <!-- شريط البحث والتصفية -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchView_notes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:queryHint="ابحث في الملاحظات..."
+            android:iconifiedByDefault="false"
+            android:layout_marginEnd="8dp" />
+
+        <!-- ✅ Spinner بدون خلفية مخصصة -->
+        <Spinner
+            android:id="@+id/spinner_tags"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:padding="8dp" />
+    </LinearLayout>
+
+    <!-- قائمة الملاحظات -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_notes"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:padding="4dp"
+        tools:listitem="@layout/note_item" />
+
+    <!-- رسالة عندما لا توجد ملاحظات -->
+    <TextView
+        android:id="@+id/tv_empty_notes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="لا توجد ملاحظات\nانقر على + لإضافة ملاحظة جديدة"
+        android:textSize="16sp"
+        android:textColor="#777777"
+        android:gravity="center"
+        android:visibility="gone" />
+
+</LinearLayout>
