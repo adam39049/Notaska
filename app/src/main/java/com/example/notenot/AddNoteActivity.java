@@ -13,6 +13,9 @@ import android.widget.Toast;
 import com.example.notenot.Database.RoomDB;
 import com.example.notenot.Models.Note;
 
+// Hello Adam 👋
+// This is Nizar here 😁
+
 public class AddNoteActivity extends BaseActivity {
 
     private EditText etNoteText, etNoteTag;
