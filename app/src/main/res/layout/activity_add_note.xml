@@ -44,7 +44,7 @@
                 android:layout_height="wrap_content"
                 android:text="حفظ"
                 android:textColor="#FFFFFF"
-                android:backgroundTint="@color/purple_500" />
+                android:backgroundTint="@color/colorPrimary" />
         </LinearLayout>
 
         <!-- نص الملاحظة -->
@@ -84,6 +84,7 @@
 
             <Button
                 android:id="@+id/btn_choose_tag"
+                android:backgroundTint="@color/colorPrimary"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="اختر علامة"

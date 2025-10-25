@@ -112,11 +112,12 @@
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:text="حفظ"
-                android:backgroundTint="@color/purple_500"
+                android:backgroundTint="@color/colorPrimary"
                 android:textColor="#FFFFFF"
                 android:layout_marginEnd="8dp" />
 
             <Button
+                android:backgroundTint="@color/colorAccent"
                 android:id="@+id/btn_cancel"
                 android:layout_width="0dp"
                 android:layout_weight="1"

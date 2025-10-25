@@ -1,39 +1,46 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
+
     <!-- Base application theme. -->
     <style name="Base.Theme.Notenot" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimaryTransparent">@color/colorPrimaryTransparent</item>
     </style>
-    <!-- الثيم الإفتراضي (الأرجواني) -->
+
+    <!--Default Theme-->
     <style name="Theme.Notenot" parent="Theme.Material3.DayNight">
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryDark">@color/purple_700</item>
         <item name="colorAccent">@color/purple_200</item>
         <item name="android:statusBarColor">@color/purple_700</item>
+        <item name="colorPrimaryTransparent">@color/purple_500_transparent</item>
     </style>
 
-    <!-- الثيم الأزرق -->
+    <!--Blue Theme-->
     <style name="AppTheme_Blue" parent="Theme.Material3.DayNight">
         <item name="colorPrimary">@color/blue_500</item>
         <item name="colorAccent">@color/blue_200</item>
         <item name="android:statusBarColor">@color/blue_700</item>
+        <item name="colorPrimaryTransparent">@color/blue_500_transparent</item>
     </style>
 
-    <!-- الثيم الأخضر -->
+    <!--Green Theme-->
     <style name="AppTheme_Green" parent="Theme.Material3.DayNight">
         <item name="colorPrimary">@color/green_500</item>
         <item name="colorPrimaryDark">@color/green_700</item>
         <item name="colorAccent">@color/green_200</item>
         <item name="android:statusBarColor">@color/green_700</item>
+        <item name="colorPrimaryTransparent">@color/green_500_transparent</item>
     </style>
 
-    <!-- الثيم البرتقالي -->
+    <!--Orange Theme-->
     <style name="AppTheme_Orange" parent="Theme.Material3.DayNight">
         <item name="colorPrimary">@color/orange_500</item>
         <item name="colorPrimaryDark">@color/orange_700</item>
         <item name="colorAccent">@color/orange_200</item>
         <item name="android:statusBarColor">@color/orange_700</item>
+        <item name="colorPrimaryTransparent">@color/orange_500_transparent</item>
     </style>
 
 </resources>

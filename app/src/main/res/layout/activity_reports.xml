@@ -33,7 +33,7 @@
                 android:focusable="true"
                 android:padding="12dp"
                 android:src="@android:drawable/ic_menu_revert"
-                android:tint="@color/purple_500" />
+                android:tint="@color/colorPrimary" />
 
             <!-- عنوان الصفحة -->
             <TextView
