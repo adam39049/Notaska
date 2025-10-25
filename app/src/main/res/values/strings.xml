@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">مدير المهام</string>
+    <string name="tasks_current">المهام الحالية</string>
+    <string name="empty_tasks">لا توجد مهام حالية\nانقر على + لإضافة مهمة جديدة</string>
+    <string name="notes_button">ملاحظات</string>
+    <string name="reports_button">التقارير</string>
+    <string name="settings_button">الإعدادات</string>
     <string name="add_task">إضافة مهمة جديدة</string>
     <string name="edit_task">تعديل المهمة</string>
     <string name="task_title">عنوان المهمة</string>

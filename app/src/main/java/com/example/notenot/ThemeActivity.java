@@ -108,12 +108,12 @@ public class ThemeActivity extends BaseActivity {
         String themeName = getThemeName(theme);
         Toast.makeText(this, "تم تطبيق النموذج " + themeName, Toast.LENGTH_SHORT).show();
 
-        // إعادة تشغيل النشاط لتطبيق الثيم
-        Intent intent = new Intent(this, ThemeActivity.class);
+        Intent intent = new Intent(this, MainActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
         finish();
     }
+
 
     private String getThemeName(int theme) {
         switch (theme) {

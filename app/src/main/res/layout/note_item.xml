@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="8dp"
@@ -22,7 +23,7 @@
             android:text="العلامة"
             android:textSize="12sp"
             android:textColor="#FFFFFF"
-            android:background="@drawable/tag_background"
+            android:background="?attr/colorPrimary"
             android:paddingHorizontal="8dp"
             android:paddingVertical="4dp"
             android:layout_marginBottom="8dp" />
@@ -67,7 +68,8 @@
                     android:background="?attr/selectableItemBackgroundBorderless"
                     android:contentDescription="تعديل"
                     android:src="@android:drawable/ic_menu_edit"
-                    android:tint="@color/purple_500" />
+                    android:tint="?attr/colorPrimary"
+                    tools:ignore="UseAppTint" />
 
                 <ImageButton
                     android:id="@+id/btn_delete_note"
@@ -76,7 +78,7 @@
                     android:background="?attr/selectableItemBackgroundBorderless"
                     android:contentDescription="حذف"
                     android:src="@android:drawable/ic_menu_delete"
-                    android:tint="#FF5252" />
+                    app:tint="#FF5252" />
             </LinearLayout>
         </LinearLayout>
 

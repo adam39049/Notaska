@@ -27,7 +27,8 @@
             android:focusable="true"
             android:padding="12dp"
             android:src="@android:drawable/ic_menu_revert"
-            android:tint="@color/colorPrimary" />
+            android:tint="?attr/colorPrimary"
+            tools:ignore="UseAppTint" />
 
         <TextView
             android:layout_width="0dp"
@@ -48,7 +49,7 @@
             android:focusable="true"
             android:padding="12dp"
             android:src="@android:drawable/ic_input_add"
-            android:tint="@color/purple_500" />
+            app:tint="?attr/colorPrimary" />
     </LinearLayout>
 
     <!-- شريط البحث والتصفية -->

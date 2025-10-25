@@ -27,7 +27,7 @@
             android:focusable="true"
             android:padding="12dp"
             android:src="@android:drawable/ic_menu_revert"
-            android:tint="@color/colorPrimary" />
+            app:tint="?attr/colorPrimary" />
 
         <TextView
             android:layout_width="0dp"
@@ -50,7 +50,7 @@
         android:text="إعدادات الصوت"
         android:textSize="18sp"
         android:textStyle="bold"
-        android:textColor="@color/colorPrimary"
+        android:textColor="?attr/colorPrimary"
         android:layout_marginBottom="16dp" />
 
     <!-- تفعيل / إيقاف صوت الإشعارات -->
@@ -124,7 +124,7 @@
             android:layout_height="wrap_content"
             android:text="فتح"
             android:textColor="#FFFFFF"
-            android:backgroundTint="@color/colorPrimary" />
+            android:backgroundTint="?attr/colorPrimary" />
     </LinearLayout>
 
     <View
