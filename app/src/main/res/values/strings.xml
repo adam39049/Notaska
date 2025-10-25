@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">مدير المهام</string>
+    <string name="app_name">Noteaska</string>
     <string name="tasks_current">المهام الحالية</string>
     <string name="empty_tasks">لا توجد مهام حالية\nانقر على + لإضافة مهمة جديدة</string>
     <string name="notes_button">ملاحظات</string>
